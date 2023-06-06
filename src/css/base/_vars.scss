@@ -1,0 +1,18 @@
+:root {
+	// fonts
+	--font-main: 'DM Sans', sans-serif;
+
+	// colors
+	--color-main: #000;
+	--color-mark: #f3741c;
+	--color-mark-hover: #e97727;
+	--color-white: #fff;
+
+	// common
+	--container: 137rem;
+
+	--padding: 2rem;
+	@include media(M) {
+		--padding: 4rem;
+	}
+}

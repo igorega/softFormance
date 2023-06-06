@@ -1,0 +1,7 @@
+.main {
+	overflow-x: hidden;
+}
+
+.container {
+	@include container;
+}

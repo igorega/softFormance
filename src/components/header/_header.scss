@@ -1,0 +1,13 @@
+.header {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+
+	@include media(M) {
+		padding-top: 6rem;
+		padding-bottom: 6rem;
+	}
+
+	&__inner {
+		text-align: center;
+	}
+}

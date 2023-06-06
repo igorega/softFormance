@@ -1,0 +1,23 @@
+@import 'base/fonts';
+
+@import 'reset';
+
+// base
+@import 'base/media';
+@import 'base/vars';
+@import 'base/mixins';
+@import 'base/base';
+
+// common
+@import 'common/styles';
+@import 'common/typography';
+@import 'common/classes';
+@import 'common/buttons';
+
+// components
+@import '../components/header/header';
+// @import '../components/footer/footer';
+@import '../components/slider/slider';
+
+// pages
+@import '../pages/about/about';
