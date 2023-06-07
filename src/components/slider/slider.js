@@ -1,4 +1,8 @@
-if (document.querySelector('.js-slider')) {
+import { swipeSlides } from './swipe';
+
+const slider = document.querySelector('.js-slider');
+
+if (slider) {
 	const slides = document.querySelectorAll('.js-slide');
 	const next = document.querySelector('.js-slide-next');
 	const prev = document.querySelector('.js-slide-prev');
@@ -61,4 +65,6 @@ if (document.querySelector('.js-slider')) {
 
 	next.addEventListener('click', nextSlide);
 	prev.addEventListener('click', prevSlide);
+
+	swipeSlides(slider, next, prev, nextSlide, prevSlide);
 }
