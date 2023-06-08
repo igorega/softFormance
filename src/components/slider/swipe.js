@@ -51,6 +51,6 @@ export const swipeSlides = (slider, nextBtn, prevBtn, nextSlide, prevSlide) => {
 		yDown = null;
 	};
 
-	slider.addEventListener('touchstart', handleTouchStart, false);
-	slider.addEventListener('touchmove', handleTouchMove, false);
+	slider.addEventListener('touchstart', handleTouchStart, {passive: true});
+	slider.addEventListener('touchmove', handleTouchMove, {passive: true});
 };

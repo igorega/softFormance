@@ -7,8 +7,8 @@ html(lang='en')
 		meta(http-equiv='x-ua-compatible', content='ie=edge')
 		meta(name='viewport', content='width=device-width, initial-scale=1.0')
 		meta(name='author', content='igorega@gmail.com')
-		meta(name='description', content='')
-		meta(name='keywords', content='')
+		meta(name='description', content='SoftFormance test work project')
+		meta(name='keywords', content='SoftFormance,  test work')
 
 		// disable link highlighting upon tap
 		meta(name='msapplication-tap-highlight', content='no')
@@ -22,10 +22,16 @@ html(lang='en')
 		// empty favicon
 		link(rel='icon' href='data:,')
 
+		style.
+			.preloader{z-index:999;position:fixed;top:0;left:0;right:0;bottom:0;width:100%;height:100%;background-color:#fff;pointer-events:none;transition:opacity 0.3s;}
+			.preloader.loaded{opacity:0;}
+
 		// css
 		link(rel='stylesheet', href='css/main.css')
 
 	body
+		.preloader
+
 		include ../components/header/header
 
 		main.main
